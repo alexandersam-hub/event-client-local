@@ -1,0 +1,165 @@
+
+.wrapper{
+    /*position: absolute;*/
+    /*width: 1440px;*/
+    height: 110px;
+    width: 100%;
+    background: #A2D9F7;
+}
+
+.logo{
+    position: absolute;
+    width: 381px;
+    height: 68px;
+
+    top: 22px;
+    left: 32px;
+}
+.logo_native{
+    display: block;
+    position: fixed;
+    top:10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 90px;
+}
+.logo_up{
+    position: absolute;
+    width: 335px;
+    height: 25px;
+    
+   
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    color: #285CA6;
+
+}
+
+
+.logo_down{
+    position: absolute;
+    width: 500px;
+    height: 49px;
+    
+    top: 15px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+
+
+    color: #285CA6;
+
+}
+
+.poin_back{
+   position:absolute;
+   right: 20px;
+   top:45px;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    border: 3px solid #285CA6;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #285CA6;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+
+@media (max-width: 770px){
+    .poin_back{
+        display: block;
+        position: relative;
+        top:130px;
+        left: 1%;
+        /*left: 7px;*/
+        width: 290px;
+
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .logo_up{
+        font-size: 15px;
+    }
+    .logo_down{
+        top: 36px;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 380px) {
+    .logo_up{
+        font-size: 10px;
+    }
+    .logo_down{
+        top: 28px;
+        font-size: 20px;
+    }
+}
+
+
+
+@media (max-width: 500px) {
+    .logo_up{
+        font-size: 15px;
+        
+        width: 305px;
+    }
+    .logo_down{
+        top: 15px;
+        
+        font-size: 30px;
+        width: 305px;
+    }
+    .logo{
+        width: 200px;
+    }
+}
+
+@media (max-width: 340px) {
+    .logo_up{
+        font-size: 10px;
+        left: 15px;
+        width: 200px;
+    }
+    .logo_down{
+        top: 4px;
+        left: 15px;
+        font-size: 21px;
+        width: 200px;
+    }
+    .logo{
+        width: 200px;
+    }
+}
+
+@media (max-width: 700px) {
+    .logo{
+
+        left: 15px;
+        top: 22px;
+
+    }
+}
+
+

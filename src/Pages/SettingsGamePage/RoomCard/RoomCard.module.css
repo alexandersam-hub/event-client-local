@@ -1,0 +1,37 @@
+a{
+    text-decoration: none;
+}
+.wrapper{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border:3px solid #2662B3;
+    border-radius: 20px;
+    font-family: Gilroy;
+}
+
+.title{
+    margin-bottom: 10px;
+    font-weight: 800;
+    color: #2662B3
+}
+.btn_update,
+.btn_remove,
+.btn_start{
+    display: inline-block;
+    text-decoration: none;
+    width: 130px;
+    border: 3px solid #2662B3;
+    text-align: center;
+    margin: 5px;
+    background-color: #fff ;
+    color: #2662B3;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn_start{
+    display: block;
+    background-color: #2662B3 ;
+    color: #fff;
+}

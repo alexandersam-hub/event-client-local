@@ -1,0 +1,30 @@
+.wrapper{
+    margin: 15px;
+}
+
+.column_name{
+    width: 100px;
+}
+.column_name_text{
+
+}
+
+.data{
+    
+}
+
+.data_input{
+    width: 300px;
+    padding: 5px;
+    border:2px solid silver;
+    border-radius: 20px;
+}
+
+.imgQuiz{
+    width: 300px;
+    margin: 10px;
+}
+
+.imgQuiz img{
+    width: 100%;
+}

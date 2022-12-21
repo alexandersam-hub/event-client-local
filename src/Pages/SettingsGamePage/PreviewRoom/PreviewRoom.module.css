@@ -1,0 +1,45 @@
+.wrapper{
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.title_quiz{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+
+
+    color: #2662B3;
+    margin:20px 30px 0 30px;
+}
+
+.btn_start{
+
+    border:3px solid #2662B3;
+    text-align: center;
+    font-family: Gilroy;
+    text-align: center;
+    color: white;
+    background-color:#2662B3 ;
+    height: 49px;
+    margin: 30px auto 0 auto;
+    cursor:pointer;
+    font-size: 40px;
+    line-height: 49px;
+    border-radius: 47px;
+    width: 320px;
+}
+
+.cards_wrapper{
+    text-align: center;
+}
+
+@media (max-width: 770px) {
+
+    .wrapper{
+        margin-top: 60px;
+    }
+}

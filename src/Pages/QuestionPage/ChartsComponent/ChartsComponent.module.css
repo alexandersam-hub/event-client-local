@@ -1,0 +1,83 @@
+
+.title{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    text-align: center;
+    margin-top: 30px;
+    color: #2662B3;
+}
+
+.t_score{
+    margin: 10px auto;
+    border-collapse: collapse;
+
+}
+
+.t_td_title{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+
+}
+.t_td_value,
+.t_td_team_name{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+    padding: 3px 5px;
+    color: #000000;
+
+}
+.t_td_team_name{
+    text-align: left;
+    width: 200px;
+}
+.t_td_value{
+    text-align: center;
+    width: 200px;
+}
+
+.red_row_table{
+    background-color: rgba(255, 0, 0, 0.25);
+}
+
+.green_row_first{
+    background-color: rgba(99, 255, 43, 0.45);
+}
+
+.green_row{
+    background-color: rgba(99, 255, 43, 0.25);
+}
+th.row {
+    font-weight: normal;
+    color: #039;
+    padding: 10px 15px;
+}
+td {
+    color: #669;
+    /*border-top: 1px solid #e8edff;*/
+    padding: 10px 15px;
+}
+tr{
+    background: #fff;
+}
+tr:nth-child(2n) {
+    background: #e8edff;
+}
+.first_place_svg{
+    width: 40px;
+    vertical-align: middle;
+    margin-left: 5px;
+
+}

@@ -1,0 +1,42 @@
+.wrapper{
+    position: fixed;
+    width: 60%;
+
+    top:150px;
+    background-color: #A2D9F7;
+    z-index:110;
+
+    top:120px;
+    left: 50%;
+    transform: translate(-50%, 5%);
+
+    width:60%;
+    max-width: 700px;
+    min-height:370px;
+    border:1px solid #285CA6;
+    border-radius: 20px;
+
+}
+
+.content{
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.close_window {
+
+    float: right;
+    cursor: pointer;
+    color:#285CA6;
+    margin: 10px 25px;
+    font-size: 28px;
+    z-index: 130;
+    font-family: 'Gilroy';
+}
+
+@media(max-width:400px){
+    .wrapper{
+        width: 85%;
+        min-height: 350px;
+    }
+}

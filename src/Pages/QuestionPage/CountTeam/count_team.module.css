@@ -1,0 +1,136 @@
+
+.wrapper_window{
+
+    vertical-align: top;
+    display: inline-block;
+    height: auto;
+    min-height: 80px;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #FF0000;
+    margin-bottom: 17px;
+    padding-left: 3px;
+}
+.team_box_active,
+.team_box{
+    padding-top: 4px;
+
+    width: 230px;
+    height: 40px;
+
+    vertical-align: middle;
+    text-align: center;
+    border: 3px solid #FF0000;
+    box-sizing: border-box;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+.team_box_active{
+
+
+    background: #FF0000;
+}
+
+
+.team_name{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    padding-right: 5px;
+
+
+    color: #000000;
+}
+
+.team_scores_disable,
+.team_btn_add{
+    text-align: center;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px 0 5px;
+    background: rgba(255, 255, 255, 0.78);
+    border: 1px solid #FF0000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #000000;
+    cursor: pointer;
+}
+.team_scores_disable{
+    background: rgba(255, 255, 255, 0.49);
+    cursor: inherit;
+}
+
+.team_scores {
+
+    display: inline-block;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+    color: #000000;
+}
+.t_data{
+    width: 100%;
+}
+.t_teamname{
+    width: 50%;
+   padding-left: 10px;
+    text-align: right;
+}
+
+.t_btn_add{
+    width: 20%;
+    text-align: center;
+}
+.t_score_add{
+    text-align: left;
+    width:30%;
+
+}
+.btn_cancel{
+    width: 125px;
+    height: 30px;
+    text-align: center;
+    background: #FF0000;
+    boreder:3px solid #FF0000;
+    border-radius: 20px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height */
+
+    float:right;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-right: 3px;
+    cursor: pointer;
+}

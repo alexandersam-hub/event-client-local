@@ -1,0 +1,132 @@
+
+.wrapper{
+    /*position: absolute;*/
+    /*width: 1440px;*/
+    height: 110px;
+    width: 100%;
+    background: #2662B3;
+    z-index: 10004;
+}
+
+.logo{
+    position: absolute;
+    width: 381px;
+    height: 68px;
+    left: 30px;
+    top: 22px;
+
+}
+
+.logo_up{
+    position: absolute;
+    height: 25px;
+    /*left: 32px;*/
+   
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24.8px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    color: #fff;
+
+}
+
+
+.logo_down{
+    position: absolute;
+    width: 400px;
+    height: 49px;
+    /*left: 30px;*/
+    top: 18px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+
+
+    color: #fff;
+
+}
+
+.merch_logo{
+    display: inline-block;
+    float: right;
+    padding-right: 30px;
+    position: relative;
+    top:15px;
+
+}
+.learnLogo{
+    position: relative;
+    top:-30px;
+    margin-right: 30px;
+
+}
+.product{
+    width: 80px;
+}
+.logo_native{
+    display: block;
+    position: fixed;
+    top:10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 90px;
+}
+@media (max-width:1000px) {
+    .merch_logo{
+        display: none;
+    }
+}
+@media (max-width: 700px) {
+    .logo{
+
+        left: 15px;
+        top: 22px;
+
+    }
+}
+
+@media (max-width: 500px) {
+    .logo_up{
+        font-size: 18.6px;
+        left: 0;
+        width: 305px;
+    }
+    .logo_down{
+        top: 15px;
+        left:0;
+        font-size: 30px;
+        width: 305px;
+    }
+    .logo{
+        margin-top: 5px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 340px) {
+    .logo_up{
+        font-size: 13.1px;
+        left: 15px;
+
+    }
+    .logo_down{
+        top: 4px;
+        left: 15px;
+        font-size: 21px;
+        width: 200px;
+    }
+    .logo{
+        width: 200px;
+        margin-top: 10px;
+    }
+}
+

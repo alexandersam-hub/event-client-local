@@ -1,0 +1,63 @@
+.background{
+    position: absolute;
+
+    top:110px;
+    left: 0;
+    height: calc(100vh - 110px);
+    width: 100%;
+
+}
+
+.rus_map{
+    position: fixed;
+    top:calc(50% + 34px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: calc(90% - 120px);
+    -khtml-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.btn{
+    position: fixed;
+    bottom:50px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    width: 34px;
+}
+
+.flag_vrio{
+    display: block;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-5%, -45%);
+    width: 300px;
+
+}
+
+.flag_vrio2{
+    display: block;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-99%, -45%) ;
+    width: 300px;
+}
+
+.logo_native{
+    display: block;
+    position: fixed;
+    top:5px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 100px;
+}

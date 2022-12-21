@@ -1,0 +1,37 @@
+.formChoice{
+   
+    height:auto; 
+    min-height: calc(100vh - 170px);
+      
+}
+
+.ButtonWrapper{
+
+    padding: 20px 40px 20px 40px;
+    display: block;
+    top:100px;
+    width: 400px;
+    margin:40px auto 40px auto;
+    /* transform: translate(-50%, -50%); */
+    background-color: rgba(161, 239, 255, 0.46);
+    border:1px solid #285CA6;
+    border-radius: 40px;
+
+}
+
+.buttonChoice{
+    text-align: center;
+    color: aliceblue;
+    background-color: #285CA6;
+    border:1px solid blue;
+    border-radius:20px;
+    text-decoration: none;
+    margin: auto;
+    display: block;
+    padding: 6px;
+    margin: 10px auto;
+    min-width: 200px;
+    /* margin-top:20px ; */
+    min-height: 30px;
+
+}

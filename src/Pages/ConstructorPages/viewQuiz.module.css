@@ -1,0 +1,30 @@
+.form{
+    min-width: 400px;
+    max-width: 1024px;
+    margin: 5px auto;
+    padding: 20px;
+    background-color: rgba(241, 241, 241, 0.57);
+}
+
+.addButton{
+    width: 220px;
+    margin-top: 20px;
+    background-color: rgb(62, 211, 62);
+    border: 2px solid green;
+    border-radius: 20px;
+    padding: 5px;
+    
+}
+
+.backButton{
+    display: block;
+    margin: 20px 20px 10px 20px;
+    text-decoration: none;
+    color:#285CA6;;
+    background-color: silver;
+    width: 100px;
+    text-align: center;
+    border:2px solid rgb(145, 145, 145);
+    border-radius: 20px;
+    padding: 2px;
+}

@@ -1,0 +1,98 @@
+.wrapper{
+
+}
+.new_user{
+    background-color: rgb(212, 221, 250);
+    width: 96%;
+    margin: 10px auto;
+    padding: 10px;
+}
+.wrapper_user_list{
+    width: 96%;
+    margin: auto;
+}
+.title_list{
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.rows_users{
+   
+}
+.tr_new_user {
+    width: 90%;
+}
+
+.qr{
+    width: 100px;
+}
+
+.generateTable{
+    width: 100%;
+}
+.td_name{
+
+    display:inline-block;
+}
+.td_password{
+
+    display:inline-block;
+}
+.td_token{
+    width: 800px;
+
+}
+.td_qr{
+    width: 40px;
+    display:inline-block;
+}
+.backButton{
+    display: block;
+    margin: 20px 20px 10px 20px;
+    text-decoration: none;
+    color:#285CA6;;
+    background-color: silver;
+    width: 100px;
+    text-align: center;
+    border:2px solid rgb(145, 145, 145);
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.btn_save_new_user{
+    display: inline-block;
+    margin: 10px;
+    background-color: rgb(180, 255, 177);
+
+    min-width: 100px;
+
+    text-align: center;
+    border:2px solid rgb(19, 112, 0);
+    border-radius: 20px;
+    padding: 2px;
+}
+.errorMessage{
+    color:red;
+}
+
+
+.btn_gen_url{
+    padding: 5px;
+    border:1px solid orange;
+    background-color: rgb(255, 241, 214);
+    border-radius: 10px;
+}
+
+.btn_gen_url:hover,
+.backButton:hover,
+.btn_save_new_user:hover{
+    cursor:pointer;
+}
+
+.add_user_input{
+    border:1px solid blue;
+    border-radius: 10px;
+    padding: 4px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}

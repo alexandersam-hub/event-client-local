@@ -1,0 +1,28 @@
+.wrapper{
+    margin-top: 80px;
+    font-family: Gilroy;
+    font-weight: 800;
+
+}
+.title{
+text-align: center;
+    font-size: 40px;
+    color:#2662B3;
+    margin-bottom: 10px;
+}
+.t_title{
+    font-size: 40px;
+    font-weight: 300;
+}
+.t_score{
+    font-size: 36px;
+    text-align: center;
+    margin: auto;
+
+}
+.t_score tr{
+    border: 3px solid #2662B3;
+}
+.t_score td{
+    padding: 2px 10px;
+}

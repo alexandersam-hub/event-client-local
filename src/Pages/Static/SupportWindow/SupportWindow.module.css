@@ -1,0 +1,238 @@
+.wrapper{
+    position: fixed;
+    width: 60%;
+    
+    top:150px;
+    background-color: #A2D9F7;
+    z-index:110;
+
+    top:120px;
+    left: 50%;
+    transform: translate(-50%, 5%);
+   
+    width:60%;
+    max-width: 700px;
+    min-height:370px;
+    border:1px solid #285CA6;
+    border-radius: 20px;
+
+}
+
+/* .form{
+    position: static;
+    min-height:370px;
+    overflow-y: auto;
+
+} */
+.close_window {
+
+    float: right;
+    cursor: pointer;
+    color:#285CA6;
+    margin: 10px 25px;
+    font-size: 28px;
+    z-index: 130;
+    font-family: 'Gilroy';
+}
+
+.title{
+    margin: 20px auto;
+    width: 250px;
+    text-align: center;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #285CA6;
+}
+
+
+.error_textbox_data,
+.textbox_data{
+    display: block;
+    width: 300px;
+    margin:20px auto;
+    height: 40px;
+    background: #f8fbfd;
+    border: 3px solid #285CA6;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    
+    color: #000000;
+}
+.error_textbox_data{
+    border: 3px solid #a51313;
+}
+.error_textarea_data,
+.textarea_data{
+    display: block;
+    width: 300px;
+    height: 100px;
+
+    padding: 10px;
+    text-align: center;
+    background: #f8fbfd;
+    border: 3px solid #285CA6;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #000000;
+
+    margin: 20px auto;
+}
+.error_textarea_data{
+    border: 3px solid #a51313;
+}
+
+.btn_send{
+    display: block;
+    width: 120px;
+    height: 30px;
+    margin: 20px auto 13px auto;
+
+    background: #3681C3;
+    border: 1px solid #2a7ec7;
+    border-radius: 20px;
+    cursor: pointer;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.error_message{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #590202;
+    text-align: center;
+}
+
+.message{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #285CA6;
+    text-align: center;
+}
+
+
+
+@media(max-width:740px){
+    .close_window {
+        position: static;
+        display: block;
+        width: 100%;
+        text-align: right;
+
+        font-size: 28px;
+        margin: 5px 10px;
+   }
+    .title{
+        display: block;
+        position: static;
+        text-align: center;
+        font-size: 24px;
+    }
+    .message{
+        margin: 0px 2px;
+    }
+   
+    .error_textbox_data,
+    .textbox_data,
+    .error_textarea_data,
+    .textarea_data{
+        width: 220px;
+    }
+}
+@media(max-width:400px){
+    .wrapper{
+        width: 85%;
+        min-height: 350px;
+    }
+    .close_window {
+        display: block;
+        position: static;
+        text-align: right;
+        font-size: 28px;
+        margin: 2px 8px;
+        width: 100%;
+        height: 20px;
+    
+   }
+    .title{
+        display: block;
+        position: static;
+        font-size: 20px;
+        width: 100%;
+        height: auto;
+        margin: 1px auto;
+       
+       
+        
+    }
+    .message{
+        margin: 0px 2px;
+    }
+  
+    .error_textbox_data,
+    .textbox_data,
+    .error_textarea_data,
+    .textarea_data{
+        margin: 10px auto;
+        width:95%;
+    }
+}
+@media(max-height:620px){
+    .wrapper{
+        top:20px;
+    }
+    .form{
+        max-height:300px;
+    }
+}
+
+@media(max-height:400px){
+    .wrapper{
+        top:-10px;
+        min-height:100px;
+       height:94%;
+        overflow-y: auto;
+
+    }
+  
+    .message{
+        font-size: 12px;
+    }
+    /* .form{
+        max-height:300px;
+        overflow-y: auto;
+    } */
+}

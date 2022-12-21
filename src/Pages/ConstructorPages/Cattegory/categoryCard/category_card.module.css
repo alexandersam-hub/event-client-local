@@ -1,0 +1,18 @@
+.wrapper{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #285CA6;
+}
+
+.not_post{
+    padding: 3px;
+    background-color: #f84646;
+    border-radius: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.imgQuiz{
+
+}

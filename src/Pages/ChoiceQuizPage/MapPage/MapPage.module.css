@@ -1,0 +1,132 @@
+.wrapper{
+    padding: 20px;
+}
+.title{
+    color: #2662B3;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.map_img{
+    display: block;
+    width:90%;
+    max-width: 900px;
+    margin: auto;
+}
+.wrapper_timer{
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.timer{
+    display: inline-block;
+    vertical-align: middle;
+    border: 3px solid #2662B3;
+    border-radius: 20px;
+    padding: 5px 15px;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 10px;
+}
+
+.btn_start_or_stop{
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 3px solid #2662B3;
+    background-color: #2662B3;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 15px;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 10px;
+}
+
+.timer_svg{
+    vertical-align: middle;
+    display: inline-block;
+
+    cursor: pointer;
+    border: 3px solid #2662B3;
+    background-color: #2662B3;
+    color: #fff;
+    border-radius: 20px;
+    width: 80px;
+    padding: 5px;
+    height: 30px;
+    margin: 10px 10px;
+}
+
+.result_table {
+    background: rgb(244, 244, 244);
+
+    width: 80%;
+    max-width: 500px;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: auto;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 10px;
+    border: 3px solid #2662B3;
+    border-radius: 20px;
+    /*border-radius: 20px;*/
+    /*border: 3px solid #fff;*/
+}
+
+
+.result_table tbody tr td {
+    /*border: 1px solid #e8e9eb;*/
+}
+
+
+.result_table tbody tr:nth-child(2n) {
+
+    background: rgba(221, 227, 250, 0.8);
+
+}
+/*.first_element td:first-child {*/
+/*    order-left-style: solid;*/
+/*    border-top-left-radius: 20px;*/
+
+/*}*/
+
+/*.first_element td:last-child {*/
+/*    order-left-style: solid;*/
+/*    border-top-right-radius: 20px;*/
+
+/*}*/
+/*.last_element td:first-child {*/
+/*    order-left-style: solid;*/
+/*    border-bottom-left-radius: 20px;*/
+
+/*}*/
+
+/*.last_element td:last-child {*/
+/*    order-left-style: solid;*/
+/*    border-bottom-right-radius: 20px;*/
+
+/*}*/
+.result_table tbody tr {
+    background: rgba(244, 244, 244, 0.9);
+
+}
+
+.result_table tbody tr:hover {
+    background: rgba(40, 92, 166, 0.21);
+}
+
+@media (max-width: 770px) {
+    .title{
+        padding-top: 40px;
+    }
+
+}

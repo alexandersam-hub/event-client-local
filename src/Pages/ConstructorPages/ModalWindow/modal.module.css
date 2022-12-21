@@ -1,0 +1,67 @@
+.modal_wrapper{
+  
+        position:fixed;
+       
+
+        top:0px;
+        left:0px;
+        width:100vw;
+        height:100vh;
+        background-color: rgba(193, 193, 193, 0.541);
+        overflow-y: scroll;
+}
+
+.modal{
+    display: block;
+    margin: 40px auto;
+    height:auto;
+    min-height: 400px;
+    width: 90%;
+    top:10px;
+    left: 2%;
+    background-color: #b3cfdff2;
+    border:3px solid #5ec1f7; 
+    border-radius: 20px;
+   
+}
+
+.title{
+
+background-color: #5ec1f7;
+border-top-left-radius: 16px;
+border-top-right-radius: 16px;
+padding: 20px;
+}
+
+.btn_save{
+    background-color: rgb(135, 230, 135);
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 6px;
+    min-width: 100px;
+    margin-left: 15px;
+    
+}
+
+.btn_close{
+    background-color: rgb(255, 141, 141);
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 6px;
+    margin-left: 40px;
+    min-width: 100px;
+    margin-bottom: 10px;
+}
+
+.exit_button{
+    position: absolute;
+    top:52px;
+    right: 90px;
+    color: rgb(252, 251, 251);
+}
+
+.exit_button:hover,
+.btn_save:hover,
+.btn_close:hover{
+    cursor: pointer;
+}

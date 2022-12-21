@@ -1,0 +1,331 @@
+/* .wrapepr{
+    min-height: calc(100vh - 170px) ;
+} */
+.wrapper{
+    width: 100%;
+    height: auto;
+
+}
+.start_build{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background: #2662B3;
+    opacity: 0.1;
+    position: fixed;
+    bottom:10px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 100;
+}
+.active_category{
+    padding: 10px;
+    color: #215cae;
+    background-color: #7eccf7;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 20px 17px;
+    cursor: pointer;
+}
+
+.category_name{
+    padding: 10px;
+    color: #285CA6;
+    background-color: #A2D9F7;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 20px 15px;
+    cursor: pointer;
+}
+
+.arrow{
+    
+    float:right;
+    padding-right: 10px;
+}
+
+.wrapper_quiz_blocks{
+
+    max-width:1420px;
+    height: auto;
+    min-height: 110px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    text-align: center
+}
+.count_wrapper_active,
+.count_wrapper{
+    margin-top: -57px;
+    margin-left:380px;
+    width: 470px;
+    position: relative;
+    top:-5px;
+    text-align: left;
+    height: 30px;
+}
+
+.task_score{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: middle;
+
+    color: #000000;
+}
+
+.wrapper_count_team_add{
+    display: inline-block;
+    margin-left: 10px;
+    width: 103px;
+    height: 28px;
+    vertical-align: middle;
+    text-align: center;
+
+
+    border: 1px solid #D0D0D0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.count_team_label_data{
+    display: inline-block;
+    margin: 3px 10px;
+}
+
+.count_team_label{
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.count_team_label_add{
+    display: inline-block;
+    text-align: center;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+
+    cursor: pointer;
+
+    color: #000000;
+
+    width: 20px;
+    height: 20px;
+    left: 816px;
+    top: 150px;
+
+    background: rgba(255, 255, 255, 0.81);
+    border: 1px solid #2662B3;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.task_score_checkbox{
+    font-size: 16px;
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.wrapper_count_team_no_active,
+.wrapper_count_team{
+    display: inline-block;
+    position: relative;
+    top:2px
+}
+.wrapper_count_team_no_active{
+    opacity: 0; /* Значение прозрачности */
+    filter: alpha(Opacity=0); /* Прозрачность в IE */
+}
+.searchTextBoxActive,
+.searchTextBox{
+    display: block;
+    margin: 30px 30px 30px 10px;
+    width: 340px;
+    height: 40px;
+    left: 30px;
+    top: 140px;
+    padding: 10px;
+    background: #FFFFFF;
+    border: 1px solid #D0D0D0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+/* https://xn--80adsajtfqq.xn--c1abdmxeng9ge.xn--p1ai/quiz/623acfd275188a4016072deb */
+
+.row_quiz{
+    display: inline-block;
+    vertical-align: middle;
+    /* width: 96%; */
+    /* margin: -50px auto; */
+    padding: 10px 0;
+    /* padding-right: 30px; */
+    text-align: center;
+    height: auto;
+    min-height: 110px;
+    font-size: 0;
+    
+}
+
+.quiz_empty{
+
+}
+
+@media (max-width: 1480px) {
+    .wrapper_quiz_blocks{
+
+        max-width: 795px;
+    }
+    .searchTextBoxActive,
+    .searchTextBox{
+        display: block;
+        margin: 30px 30px 30px 10px;
+        width: 300px;
+    }
+    .count_wrapper_active,
+    .count_wrapper{
+        margin-top: -47px;
+        margin-left:324px;
+        width: 460px;
+        position: relative;
+        top:-17px;
+        text-align: left;
+        height: 30px;
+    }
+
+}
+
+@media(max-width:830px){
+    .wrapper_quiz_blocks{
+
+        max-width: 795px;
+
+    }
+
+    .wrapper_quiz_blocks{
+        max-width: 655px;
+    }
+
+    .searchTextBoxActive,
+    .searchTextBox{
+        display: block;
+        margin: 30px 30px 55px 3px;
+
+    }
+
+    .count_wrapper_active,
+    .count_wrapper{
+        position: static;
+        height: 30px;
+        margin-left: 3px;
+    }
+    .active_category,
+    .category_name{
+        
+        margin: 20px auto;
+    }
+
+}
+
+@media (max-width: 765px) {
+
+    .active_category,
+    .category_name{
+        
+        margin: 20px auto;
+    }
+    .searchTextBoxActive,
+    .searchTextBox{
+        display: block;
+        margin: 30px 30px 55px 15px;
+    }
+
+    .count_wrapper_active,
+    .count_wrapper{
+        position: static;
+        width: 95%;
+        height: 30px;
+        margin-left: 17px;
+    }
+
+    .row_quiz{
+        display: block;
+        width: 96%;
+        margin: auto;
+    }
+  
+}
+@media(max-width:490px){
+
+    .count_wrapper_active,
+    .count_wrapper{
+        position: static;
+        margin-top: -40px;
+        width: 95%;
+        height: 30px;
+        margin-left: 17px;
+    }
+    .wrapper_count_team{
+        margin-right: 10px;
+    }
+
+    .searchTextBoxActive,
+    .searchTextBox{
+        width: 260px;
+    }
+    .count_wrapper_active{
+
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width:400px){
+    /*.wrapper_count_team_add{*/
+    /*    display:block;*/
+    /*    width: 90%;*/
+    /*}*/
+
+    .row_quiz{
+        display: block;
+        width: 96%;
+        padding: 10px 0;
+        margin: auto;
+    }
+    .searchTextBoxActive,
+    .searchTextBox{
+        width: 260px;
+    }
+}
+@media(max-width:350px){
+    .count_wrapper_active{
+        margin-bottom: 25px;
+        height: 60px;
+    }
+
+    /*.wrapper_count_team{*/
+    /*    display: block;*/
+    /*}*/
+    .wrapper_count_team{
+        width: 100%;
+    }
+    .wrapper_count_team_add{
+        display: inline-block;
+        position: static;
+        width: 95%;
+        margin: 10px auto 20px auto;
+    }
+}

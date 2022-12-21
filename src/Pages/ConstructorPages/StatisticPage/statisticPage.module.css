@@ -1,0 +1,58 @@
+.wrapper{
+    margin: 10px auto;
+    width: 40%;
+}
+.title_card{
+    padding: 5px 10px;
+
+    background-color: rgb(169, 169, 252);
+    margin-top: 10px;
+}
+.org_name{
+    display: inline-block;
+    margin-left: 10px;
+}
+.card_progress{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    /*border-bottom: 1px solid #5c5c5c;*/
+}
+
+.item_progress{
+    padding:10px;
+    border:1px solid black;
+
+}
+
+.td_title{
+    min-width: 200px;
+    padding-left: 7px;
+}
+
+.date_row{
+    border-bottom: 1px solid #7f7f7f;
+}
+
+.row_card{
+    border: 1px solid #848484;
+}
+
+.backButton{
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border: 1px solid rgb(169, 169, 252) ;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    background-color:  rgb(237, 237, 254);
+}
+
+.enters_table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.enters_table td{
+    border: 1px solid black;
+}

@@ -1,0 +1,30 @@
+.input_count_team{
+
+    text-align: center;
+
+}
+.wrapper{
+    padding: 20px;
+    margin-top: 10px;
+}
+.team_box{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid #2662B3;
+}
+
+
+.btn_start{
+    margin:10px auto 0;
+    width: 150px;
+    color:white;
+    height: 30px;
+    line-height: 30px;
+    font-family: Montserrat;
+    background-color: #2662B3;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
